@@ -2,6 +2,7 @@
   "name": "junk-encoder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.paddingleft.com/junk-encoder/build/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "hi-base64": "^0.2.1",
