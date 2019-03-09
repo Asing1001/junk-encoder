@@ -1,15 +1,15 @@
 {
-  "main.css": "junk-encoder/static/css/main.c9e33269.chunk.css",
-  "main.js": "junk-encoder/static/js/main.362bb87a.chunk.js",
-  "main.js.map": "junk-encoder/static/js/main.362bb87a.chunk.js.map",
-  "runtime~main.js": "junk-encoder/static/js/runtime~main.47706080.js",
-  "runtime~main.js.map": "junk-encoder/static/js/runtime~main.47706080.js.map",
-  "static/css/2.bbf46a9d.chunk.css": "junk-encoder/static/css/2.bbf46a9d.chunk.css",
-  "static/js/2.442268d3.chunk.js": "junk-encoder/static/js/2.442268d3.chunk.js",
-  "static/js/2.442268d3.chunk.js.map": "junk-encoder/static/js/2.442268d3.chunk.js.map",
-  "index.html": "junk-encoder/index.html",
-  "precache-manifest.fe5fe6d1b0861ecfb2030f26ede3d4ae.js": "junk-encoder/precache-manifest.fe5fe6d1b0861ecfb2030f26ede3d4ae.js",
-  "service-worker.js": "junk-encoder/service-worker.js",
-  "static/css/2.bbf46a9d.chunk.css.map": "junk-encoder/static/css/2.bbf46a9d.chunk.css.map",
-  "static/css/main.c9e33269.chunk.css.map": "junk-encoder/static/css/main.c9e33269.chunk.css.map"
+  "main.css": "/junk-encoder/static/css/main.c9e33269.chunk.css",
+  "main.js": "/junk-encoder/static/js/main.80c78d75.chunk.js",
+  "main.js.map": "/junk-encoder/static/js/main.80c78d75.chunk.js.map",
+  "runtime~main.js": "/junk-encoder/static/js/runtime~main.ed4847e9.js",
+  "runtime~main.js.map": "/junk-encoder/static/js/runtime~main.ed4847e9.js.map",
+  "static/css/2.bbf46a9d.chunk.css": "/junk-encoder/static/css/2.bbf46a9d.chunk.css",
+  "static/js/2.442268d3.chunk.js": "/junk-encoder/static/js/2.442268d3.chunk.js",
+  "static/js/2.442268d3.chunk.js.map": "/junk-encoder/static/js/2.442268d3.chunk.js.map",
+  "index.html": "/junk-encoder/index.html",
+  "precache-manifest.a70a010b83f6f7ae634be4d2589fd56b.js": "/junk-encoder/precache-manifest.a70a010b83f6f7ae634be4d2589fd56b.js",
+  "service-worker.js": "/junk-encoder/service-worker.js",
+  "static/css/2.bbf46a9d.chunk.css.map": "/junk-encoder/static/css/2.bbf46a9d.chunk.css.map",
+  "static/css/main.c9e33269.chunk.css.map": "/junk-encoder/static/css/main.c9e33269.chunk.css.map"
 }
