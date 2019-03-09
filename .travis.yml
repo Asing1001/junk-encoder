@@ -1,0 +1,25 @@
+language: node_js
+node_js: 10.15
+cache: yarn
+before_script:
+  - git config --global user.name "Sing"
+  - git config --global user.email "sing@paddingleft.com"
+  - git clone --branch gh-pages https://${GH_REF} ${PACKAGE_FOLDER}
+
+script:
+  - npm run build
+  - npm test
+
+after_success:
+  - cd ${PACKAGE_FOLDER}
+  - rm -rf *
+  - cp -r ../build/* .
+  - find .
+  - git add --all .
+  - git commit --message "${TRAVIS_COMMIT_MESSAGE} [ci skip]"
+  - git push --force "https://${GH_TOKEN}@${GH_REF}" gh-pages:gh-pages
+
+env:
+  global:
+    - GH_REF: github.com/Asing1001/junk-encoder.git
+    - PACKAGE_FOLDER: mypackages

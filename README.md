@@ -1,13 +1,16 @@
-# junk-encoder
+# junk-encoder [![Build Status](https://travis-ci.org/Asing1001/junk-encoder.svg?branch=master)](https://travis-ci.org/Asing1001/junk-encoder)
 
-[廢文編碼器介紹](https://g0v.hackmd.io/6lNfj-VeQYCW9dvKqG0SGQ)
+[開始編廢文](https://www.paddingleft.com/junk-encoder) | [廢文編碼器詳細介紹](https://g0v.hackmd.io/6lNfj-VeQYCW9dvKqG0SGQ) | [編碼器核心](src/core/junk.js)
+
+廢文編碼器旨在將任何文字編碼成廢文，幫助同胞們避開敏感字審查，更可以幫助你PO廢文！
+![](public/junk-encode-demo.gif)
 
 ## Credit
 
-- Ronny Wang: 大松提案者
-- 建穎： 跳坑者
+- Ronny Wang: [g0v 33th](https://beta.hackfoldr.org/g0v-hackath33n/)大松提案者
+- 建穎: 跳坑者
 - Sing Chen: 六言絕句詩人
-- WJ : 跳坑 + 1
+- WJ: 跳坑 + 1
 - Lulu: 跳坑女孩
 
 ## Available Scripts

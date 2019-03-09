@@ -2,11 +2,13 @@
   "name": "junk-encoder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/junk-encoder/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "hi-base64": "^0.2.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },
   "scripts": {

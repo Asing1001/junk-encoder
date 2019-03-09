@@ -1,32 +1,35 @@
 import React, { Component } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import EncodeForm from './components/encodeForm'
 import DecodeForm from './components/decodeForm'
+import { homepage } from '../package.json'
+
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props)
-    this.state= {
+    this.state = {
       activeIndex: 0
     }
   }
 
-  handleClick = (activeIndex) =>{
-    this.setState({activeIndex})
+  handleClick = (activeIndex) => {
+    this.setState({ activeIndex })
   }
 
   render() {
-    const { activeIndex } = this.state
     return (
-      <div className="container">
-        <nav className="nav nav-pills nav-justified" style={{padding:'1em'}}>
-          <a className={`nav-item nav-link ${activeIndex===0? 'active' :''}`} href="javascript:void(0)" onClick={() => this.handleClick(0)}>編碼</a>
-          <a className={`nav-item nav-link ${activeIndex===1? 'active' :''}`} href="javascript:void(0)" onClick={() => this.handleClick(1)}>解碼</a>
-        </nav>
-        {activeIndex === 0?
-          (<EncodeForm></EncodeForm>):(<DecodeForm></DecodeForm>)
-        }
-      </div>
+      <Router basename={homepage}>
+        <div className="container">
+          <nav className="nav nav-pills nav-justified" style={{ padding: '1em' }}>
+            <NavLink exact className="nav-item nav-link" to="/">編碼</NavLink>
+            <NavLink className="nav-item nav-link" to="/decode">解碼</NavLink>
+          </nav>
+          <Route exact path="/" component={EncodeForm} />
+          <Route path="/decode" component={DecodeForm} />
+        </div>
+      </Router>
     );
   }
 }
