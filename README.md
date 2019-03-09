@@ -1,6 +1,14 @@
 # junk-encoder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[廢文編碼器介紹](https://g0v.hackmd.io/6lNfj-VeQYCW9dvKqG0SGQ)
+
+## Credit
+
+- Ronny Wang: 大松提案者
+- 建穎： 跳坑者
+- Sing Chen: 六言絕句詩人
+- WJ : 跳坑 + 1
+- Lulu: 跳坑女孩
 
 ## Available Scripts
 
