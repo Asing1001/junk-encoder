@@ -1,14 +1,14 @@
 {
   "main.css": "/junk-encoder/static/css/main.c9e33269.chunk.css",
-  "main.js": "/junk-encoder/static/js/main.80c78d75.chunk.js",
-  "main.js.map": "/junk-encoder/static/js/main.80c78d75.chunk.js.map",
+  "main.js": "/junk-encoder/static/js/main.c9e6d28d.chunk.js",
+  "main.js.map": "/junk-encoder/static/js/main.c9e6d28d.chunk.js.map",
   "runtime~main.js": "/junk-encoder/static/js/runtime~main.ed4847e9.js",
   "runtime~main.js.map": "/junk-encoder/static/js/runtime~main.ed4847e9.js.map",
   "static/css/2.bbf46a9d.chunk.css": "/junk-encoder/static/css/2.bbf46a9d.chunk.css",
   "static/js/2.442268d3.chunk.js": "/junk-encoder/static/js/2.442268d3.chunk.js",
   "static/js/2.442268d3.chunk.js.map": "/junk-encoder/static/js/2.442268d3.chunk.js.map",
   "index.html": "/junk-encoder/index.html",
-  "precache-manifest.a70a010b83f6f7ae634be4d2589fd56b.js": "/junk-encoder/precache-manifest.a70a010b83f6f7ae634be4d2589fd56b.js",
+  "precache-manifest.889047da87a4cbae0d6817e092a7d6b2.js": "/junk-encoder/precache-manifest.889047da87a4cbae0d6817e092a7d6b2.js",
   "service-worker.js": "/junk-encoder/service-worker.js",
   "static/css/2.bbf46a9d.chunk.css.map": "/junk-encoder/static/css/2.bbf46a9d.chunk.css.map",
   "static/css/main.c9e33269.chunk.css.map": "/junk-encoder/static/css/main.c9e33269.chunk.css.map"
