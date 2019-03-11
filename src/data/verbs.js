@@ -9,6 +9,6 @@ const verbs = [
     { "key": "鼓動", "value": "Q" },{ "key": "漠視", "value": "R" },{ "key": "詩人", "value": "S" },{ "key": "阿呆", "value": "T" }, { "key": "阿姨", "value": "U" },{ "key": "叔叔", "value": "V" },
     { "key": "鼓吹", "value": "W" },{ "key": "鼓勵", "value": "X" },{ "key": "雇用", "value": "Y" },{ "key": "觀看", "value": "Z" }, { "key": "偷看", "value": "0" },{ "key": "偷瞄", "value": "1" },
     { "key": "警告", "value": "2" },{ "key": "教化", "value": "3" },{ "key": "獎勵", "value": "4" },{ "key": "監視", "value": "5" }, { "key": "監督", "value": "6" },{ "key": "回絕", "value": "7" },
-    { "key": "提醒", "value": "8" },{ "key": "苛責", "value": "9" },{ "key": "恐嚇", "value": "+" },{ "key": "妄想", "value": "=" }
+    { "key": "提醒", "value": "8" },{ "key": "苛責", "value": "9" },{ "key": "恐嚇", "value": "+" },{ "key": "妄想", "value": "/" }
 ]
 export default verbs;
