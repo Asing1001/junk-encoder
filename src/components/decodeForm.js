@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { decodeJunkToBase64 } from "../core/junk";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 const base64 = require('hi-base64');
 
 class EncodeForm extends Component {
@@ -8,7 +9,7 @@ class EncodeForm extends Component {
     this.state = {
       base64Text: '',
       plainText: '',
-      encodedText: ''
+      encodedText: '',
     }
   }
 
@@ -27,10 +28,20 @@ class EncodeForm extends Component {
     return (
       <div className="container">
         <div className="form-group">
+          <div className="text-right">
+            <CopyToClipboard text={encodedText}>
+              <button className="btn btn-secondary btn-sm my-2">複製內容</button>
+            </CopyToClipboard>
+          </div>
           <textarea placeholder="輸入編譯過後的廢文，e.g. 嬸嬸安撫浩浩，姊夫監視老婆，歌手指導。" rows="10" className="form-control" id="encodedText" type="text" onChange={this.handleEncodedTextChange} value={encodedText} />
           <button className="btn btn-primary my-2" onClick={this.handleClick}>decode</button>
         </div>
         <div>編碼結果：{base64Text}</div>
+        <div className="text-right">
+          <CopyToClipboard text={plainText}>
+            <button className="btn btn-secondary btn-sm my-2">複製內容</button>
+          </CopyToClipboard>
+        </div>
         <textarea readOnly rows="20" className="form-control" type="text" value={plainText} />
         <div>
         </div>
