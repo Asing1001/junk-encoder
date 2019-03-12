@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { decodeJunkToBase64 } from "../core/junk";
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 const base64 = require('hi-base64');
 
 class EncodeForm extends Component {
@@ -10,12 +10,11 @@ class EncodeForm extends Component {
       base64Text: '',
       plainText: '',
       encodedText: '',
-      copied: false,
     }
   }
 
   handleEncodedTextChange = (evt) => {
-    this.setState({ encodedText: evt.target.value , copied: false})
+    this.setState({ encodedText: evt.target.value })
   }
 
   handleClick = () => {
@@ -30,8 +29,7 @@ class EncodeForm extends Component {
       <div className="container">
         <div className="form-group">
           <div className="text-right">
-            <CopyToClipboard text={encodedText}
-              onCopy={() => this.setState({copied: true})}>
+            <CopyToClipboard text={encodedText}>
               <button className="btn btn-secondary btn-sm my-2">複製內容</button>
             </CopyToClipboard>
           </div>
@@ -39,12 +37,11 @@ class EncodeForm extends Component {
           <button className="btn btn-primary my-2" onClick={this.handleClick}>decode</button>
         </div>
         <div>編碼結果：{base64Text}</div>
-          <div className="text-right">
-            <CopyToClipboard text={plainText}
-              onCopy={() => this.setState({copied: true})}>
-              <button className="btn btn-secondary btn-sm my-2">複製內容</button>
-            </CopyToClipboard>
-          </div>
+        <div className="text-right">
+          <CopyToClipboard text={plainText}>
+            <button className="btn btn-secondary btn-sm my-2">複製內容</button>
+          </CopyToClipboard>
+        </div>
         <textarea readOnly rows="20" className="form-control" type="text" value={plainText} />
         <div>
         </div>
