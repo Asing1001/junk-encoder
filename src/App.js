@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 import EncodeForm from './components/encodeForm'
 import DecodeForm from './components/decodeForm'
-import { homepage } from '../package.json'
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +19,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename={homepage}>
+      <Router basename="/">
         <div className="container">
           <nav className="nav nav-pills nav-justified" style={{ padding: '1em' }}>
             <NavLink exact className="nav-item nav-link" to="/">編碼</NavLink>
