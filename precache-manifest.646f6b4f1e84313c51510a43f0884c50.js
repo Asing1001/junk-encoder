@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/junk-encoder/static/js/runtime~main.d87e1d18.js"
   },
   {
-    "revision": "31678d72cde245169624",
-    "url": "/junk-encoder/static/js/main.0f237fb5.chunk.js"
+    "revision": "d12abcf1412cbaff7868",
+    "url": "/junk-encoder/static/js/main.581b475d.chunk.js"
   },
   {
     "revision": "c5a7b643caa32eae47cd",
     "url": "/junk-encoder/static/js/2.b831d720.chunk.js"
   },
   {
-    "revision": "31678d72cde245169624",
+    "revision": "d12abcf1412cbaff7868",
     "url": "/junk-encoder/static/css/main.c9e33269.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/junk-encoder/static/css/2.49ad2cea.chunk.css"
   },
   {
-    "revision": "6546811fef2514c837e3619a06b75801",
+    "revision": "6dc416d7544970cc35d9bc08f8ea4b0d",
     "url": "/junk-encoder/index.html"
   }
 ];
