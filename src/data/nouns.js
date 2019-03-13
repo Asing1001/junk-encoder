@@ -9,7 +9,7 @@ const nouns = [
     { "key": "小女", "value": "Q" },{ "key": "將軍", "value": "R" },{ "key": "詩人", "value": "S" },{ "key": "阿呆", "value": "T" }, { "key": "阿姨", "value": "U" },{ "key": "叔叔", "value": "V" },
     { "key": "舅媽", "value": "W" },{ "key": "親家", "value": "X" },{ "key": "姑丈", "value": "Y" },{ "key": "姑媽", "value": "Z" }, { "key": "舅舅", "value": "0" },{ "key": "姨媽", "value": "1" },
     { "key": "舅公", "value": "2" },{ "key": "姨婆", "value": "3" },{ "key": "姑婆", "value": "4" },{ "key": "嬸嬸", "value": "5" }, { "key": "嬸婆", "value": "6" },{ "key": "員工", "value": "7" },
-    { "key": "姪子", "value": "8" },{ "key": "兒子", "value": "9" },{ "key": "廚師", "value": "+" },{ "key": "司機", "value": "/" }   
+    { "key": "姪子", "value": "8" },{ "key": "兒子", "value": "9" },{ "key": "廚師", "value": "+" },{ "key": "司機", "value": "/" }, { "key": "賭神", "value": "=" }
 ]
 
 export default nouns
