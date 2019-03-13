@@ -6,17 +6,6 @@ import EncodeForm from './components/encodeForm'
 import DecodeForm from './components/decodeForm'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      activeIndex: 0
-    }
-  }
-
-  handleClick = (activeIndex) => {
-    this.setState({ activeIndex })
-  }
-
   render() {
     return (
       <Router basename="/">
